@@ -32,3 +32,4 @@ ssh-keygen -o -t rsa -C "amunnezza@gmail.com"
 # che nel mio caso amunnezza andando in settings --> ssh and gpg keys -> premi il bottone New SSH key --> copia il contenuto del 
 # file.pub nella finestra e confermi)
 #aa questo punto il push dovrebbe funzionamere senza problemi
+
