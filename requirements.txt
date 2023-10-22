@@ -5,7 +5,7 @@ httpserver
 libratom
 paramiko
 psutil
-#pycryptodomex
+pycryptodomex
 pyinstaller
 requests
 scapy
