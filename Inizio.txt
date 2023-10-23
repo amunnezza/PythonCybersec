@@ -1,3 +1,14 @@
+
+#per creare un virtual environment usa il comando
+python -m venv .venv 
+#dove .venv lo usi cosi viene escluso da git ed è dir di installazione
+#per attivare usi poi in linux 
+source .venv/bin/activate
+
+#installi requirements con
+pip install -r requirements.txt
+
+
 Per iniziare puoi avere dei problemi con l'installaizone dei requirements.
 Principalmente il problema lo pone la libreria libratom
 Non trova il compilatore e la soluzione puo essere installare il compilatore che si installa con
@@ -17,7 +28,7 @@ sudo apt install git
 #settaggi iniziali 
 git config --global user.email "amunnezza@gmail.com"
 git config --global user.name "amunnezza"
-
+#
 #aggiungi i file e aggiungi come remote il repository github.com 
 git add .
 git commit -m "inizio"
@@ -32,4 +43,9 @@ ssh-keygen -o -t rsa -C "amunnezza@gmail.com"
 # che nel mio caso amunnezza andando in settings --> ssh and gpg keys -> premi il bottone New SSH key --> copia il contenuto del 
 # file.pub nella finestra e confermi)
 #aa questo punto il push dovrebbe funzionamere senza problemi
+
+
+
+
+
 
